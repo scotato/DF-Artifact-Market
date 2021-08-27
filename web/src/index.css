@@ -1,14 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Fira+Code&display=swap);
 
-body {
+body,
+#redwood-app {
   margin: 0;
   padding: 0;
-  color: white;
-  font-size: 16px;
-}
-
-#redwood-app {
-  margin: 0 auto;
-  padding: 64px;
-  max-width: 800;
+  width: 100%;
+  min-height: 100%
 }
